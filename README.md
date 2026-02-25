@@ -1,48 +1,31 @@
-# my-portfolio
+# Portfolio – Vue.js Projekt
 
-This template should help get you started developing with Vue 3 in Vite.
+Dies ist mein persönliches Portfolio, erstellt im Rahmen des Moduls *Abhängigkeiten* an der EMVS.  
+Das Projekt wird mit **Vue 3**, **Vite** und **GitHub** entwickelt.
 
-## Recommended IDE Setup
+## 🚀 Ziele des Projekts
+- Eigenes Portfolio mit mehreren Sektionen (Home, About, Skills, Contact)
+- Moderne Webtechnologien anwenden (Vue, Routing, Komponenten)
+- Saubere Projektstruktur und Versionierung
+- Zusammenarbeit im Team und tägliche Dailys
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🛠️ Technologien
+- Vue 3
+- Vite
+- JavaScript
+- HTML & CSS
+- Git & GitHub
 
-## Recommended Browser Setup
+## 📌 Aktueller Stand
+- Projekt erfolgreich mit Vue erstellt
+- GitHub Repository eingerichtet
+- Entwicklungsumgebung läuft unter WSL
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## 📅 Modul: Abhängigkeiten
+- Teamarbeit in 5er‑Gruppen
+- Planung mit GitHub Projects
+- Tägliche Dailys
+- Dokumentation des Fortschritts
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## 📄 Lizenz
+Dieses Projekt ist Teil eines Schulmoduls und dient Lernzwecken.
