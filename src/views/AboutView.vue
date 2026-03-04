@@ -34,24 +34,24 @@ export default {
 
 <style scoped>
 .about {
+  height: calc(100vh - 90px);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 80px 10%;
-  min-height: 100vh;
-  background: #111;
-  color: white;
-  gap: 40px;
+  justify-content: center;
+  gap: 60px;
+  padding: 0 10%;
+  overflow-x: hidden;
 }
 
 .about-img img {
-  width: 350px;
+  width: 300px;
+  max-width: 100%;
   border-radius: 12px;
   border: 4px solid #00bcd4;
 }
 
 .about-content {
-  max-width: 600px;
+  max-width: 500%;
 }
 
 .about-content h2 {

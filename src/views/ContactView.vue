@@ -40,7 +40,8 @@
   gap: 1rem;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: .7rem;
   border-radius: 6px;

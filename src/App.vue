@@ -18,16 +18,20 @@
 
 <style scoped>
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 70px; /* oder was du willst */
+  background: #0a0a0a;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 10%;
-  background: #0a0a0a;
-  position: sticky;
-  top: 0;
+  padding: 0 40px;
   z-index: 1000;
+  border-bottom: 2px solid #00bcd4;
 }
+
 
 .logo {
   color: #00bcd4;
@@ -48,5 +52,6 @@ nav a.router-link-exact-active {
 .page {
   width: 100%;
   overflow-x: hidden;
+  
 }
 </style>

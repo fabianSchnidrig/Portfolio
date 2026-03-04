@@ -28,15 +28,15 @@ export default {
 
 <style scoped>
 .home {
+  min-height: calc(100vh - 90px);
+  /* Platz für Navbar */
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 0 5%;
-  height: 100vh;
-  background: #0a0a0a;
-  color: white;
+  align-items: center;
+  padding: 0 10%;
+  box-sizing: border-box;
 }
-
 
 .home-content {
   max-width: 600px;
@@ -78,7 +78,12 @@ export default {
   background: #0097a7;
 }
 
-.home-img img { max-width: 100%; width: 320px; border-radius: 50%; border: 4px solid #00bcd4; }
+.home-img img {
+  max-width: 100%;
+  width: 320px;
+  border-radius: 50%;
+  border: 4px solid #00bcd4;
+}
 
 
 @media (max-width: 900px) {
@@ -94,6 +99,4 @@ export default {
     margin-top: 30px;
   }
 }
-
-
 </style>
