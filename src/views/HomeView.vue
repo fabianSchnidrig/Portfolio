@@ -31,11 +31,12 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 80px 10%;
-  min-height: 100vh;
-  background: #0f0f0f;
+  padding: 0 5%;
+  height: 100vh;
+  background: #0a0a0a;
   color: white;
 }
+
 
 .home-content {
   max-width: 600px;
@@ -77,9 +78,22 @@ export default {
   background: #0097a7;
 }
 
-.home-img img {
-  width: 350px;
-  border-radius: 50%;
-  border: 4px solid #00bcd4;
+.home-img img { max-width: 100%; width: 320px; border-radius: 50%; border: 4px solid #00bcd4; }
+
+
+@media (max-width: 900px) {
+  .home {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 40px 5%;
+  }
+
+  .home-img img {
+    width: 250px;
+    margin-top: 30px;
+  }
 }
+
+
 </style>
