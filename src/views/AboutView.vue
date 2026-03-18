@@ -1,24 +1,19 @@
 <template>
   <section class="about">
-    <div class="about-img">
-      <img src="@/assets/images/images_silhouette.jpg" alt="About Image" />
-    </div>
-
-    <div class="about-content">
-      <h2>About Me</h2>
-      <h3>IT Apprentice & Developer</h3>
+    <div class="about-container">
+      <h2>About <span>Me</span></h2>
+      <h3>Platform IT Apprentice</h3>
 
       <p>
-        I'm Fabian, an IT apprentice specializing in platform development.
-        I enjoy building modern web applications, experimenting with server
-        environments, and optimizing workflows. My background in construction
-        and healthcare gives me a unique perspective on problem‑solving and
-        teamwork.
+        I'm Fabian, a platform IT apprentice with a strong interest in web development 
+        and server environments. I enjoy building modern applications, experimenting 
+        with new technologies, and improving systems step by step.
       </p>
 
       <p>
-        I love learning new technologies, working on personal hardware projects,
-        and improving my development skills step by step.
+        My background in different fields has helped me develop strong problem-solving 
+        skills and adaptability. I am motivated to continuously learn and grow in the 
+        IT world.
       </p>
 
       <router-link to="/skills" class="btn">My Skills</router-link>
@@ -34,54 +29,53 @@ export default {
 
 <style scoped>
 .about {
-  height: calc(100vh - 90px);
+  min-height: calc(100vh - 90px);
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 60px;
   padding: 0 10%;
-  overflow-x: hidden;
+  text-align: center;
 }
 
-.about-img img {
-  width: 300px;
-  max-width: 100%;
-  border-radius: 12px;
-  border: 4px solid #00bcd4;
+.about-container {
+  max-width: 700px;
 }
 
-.about-content {
-  max-width: 500%;
-}
-
-.about-content h2 {
-  font-size: 42px;
+.about h2 {
+  font-size: 3rem;
   margin-bottom: 10px;
 }
 
-.about-content h3 {
-  font-size: 24px;
+.about h2 span {
   color: #00bcd4;
-  margin-bottom: 20px;
 }
 
-.about-content p {
-  font-size: 18px;
-  line-height: 1.6;
+.about h3 {
+  font-size: 1.6rem;
+  color: #00bcd4;
+  margin-bottom: 25px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #c0c0c0;
   margin-bottom: 20px;
 }
 
 .btn {
-  padding: 12px 24px;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
   background: #00bcd4;
-  color: black;
+  color: #111;
   text-decoration: none;
   font-weight: 600;
-  border-radius: 6px;
+  border-radius: 8px;
   transition: 0.3s;
 }
 
 .btn:hover {
-  background: #0097a7;
+  background: #00d4ee;
 }
 </style>

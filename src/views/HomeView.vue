@@ -1,13 +1,15 @@
 <template>
   <section class="home">
     <div class="home-content">
-      <p class="intro">Hi, I'm</p>
+      <p class="intro">Hello, I'm</p>
       <h1>Fabian</h1>
-      <h2>IT Apprentice & Developer</h2>
+      <h2>Platform IT Apprentice</h2>
 
       <p class="description">
-        I build modern web applications, experiment with server environments,
-        and love optimizing workflows. Welcome to my portfolio!
+        I am a platform IT apprentice passionate about building modern web applications
+        and working with server infrastructures. I enjoy learning new technologies,
+        optimizing workflows, and continuously improving my skills in both development
+        and system administration.
       </p>
 
       <div class="buttons">
@@ -35,7 +37,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-   padding: 20px 0 0 8%;
+  padding: 20px 0 0 8%;
   background: #111;
   color: white;
   overflow: hidden;
@@ -55,10 +57,11 @@ export default {
 }
 
 .home-content h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 1.05;
   margin: 0 0 14px;
   color: #00bcd4;
+  text-shadow: 0 0 10px rgba(0, 188, 212, 0.2);
 }
 
 .home-content h2 {
@@ -68,18 +71,18 @@ export default {
 }
 
 .description {
-  font-size: 1.15rem;
-  line-height: 1.9;
-  color: #d0d0d0;
-  margin-bottom: 34px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #c0c0c0;
+  max-width: 500px;
+  margin-bottom: 36px;
 }
-
 .buttons {
   display: flex;
   gap: 18px;
   flex-wrap: wrap;
+  margin-top: 10px;
 }
-
 .btn {
   display: inline-block;
   padding: 14px 28px;
@@ -123,7 +126,8 @@ export default {
   height: 100%;
   z-index: 1;
 
-  position: relative; /* 🔥 hinzufügen */
+  position: relative;
+  /* 🔥 hinzufügen */
 }
 
 .home-image::before {
@@ -136,6 +140,7 @@ export default {
   background: linear-gradient(to right, #111, transparent);
   z-index: 2;
 }
+
 .home-image img {
   width: 65vw;
   max-width: none;
@@ -143,8 +148,15 @@ export default {
   height: auto;
   display: block;
 
-  transform: translateX(80px); /* 👉 nach rechts schieben */
+  transform: translateX(80px);
+  /* 👉 nach rechts schieben */
 }
+
+.intro {
+  font-size: 1.6rem;
+  color: #a0a0a0;
+}
+
 @media (max-width: 1100px) {
   .home-content h1 {
     font-size: 4rem;
