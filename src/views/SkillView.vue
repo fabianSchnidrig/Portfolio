@@ -1,34 +1,78 @@
 <template>
     <section class="skills">
-        <h1 class="title">My Skills</h1>
+        <h1 class="title">My <span>Skills</span></h1>
 
         <div class="skill">
-            <span>Vue.js</span>
+            <div class="skill-header">
+                <span>Vue.js</span>
+                <span>55%</span>
+            </div>
             <div class="bar">
-                <div style="width: 85%"></div>
+                <div style="width: 55%"></div>
             </div>
         </div>
 
         <div class="skill">
-            <span>JavaScript</span>
+            <div class="skill-header">
+                <span>JavaScript</span>
+                <span>65%</span>
+            </div>
             <div class="bar">
-                <div style="width: 80%"></div>
+                <div style="width: 65%"></div>
             </div>
         </div>
-
         <div class="skill">
-            <span>Docker</span>
+            <div class="skill-header">
+                <span>HTML & CSS</span>
+                <span>50%</span>
+            </div>
+            <div class="bar">
+                <div style="width: 50%"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-header">
+                <span>Linux Server Administration</span>
+                <span>70%</span>
+            </div>
             <div class="bar">
                 <div style="width: 70%"></div>
             </div>
         </div>
 
-        <div class="skill">
-            <span>Linux Server</span>
+
+<div class="skill">
+            <div class="skill-header">
+                <span>Docker</span>
+                <span>75%</span>
+            </div>
             <div class="bar">
-                <div style="width: 90%"></div>
+                <div style="width: 75%"></div>
             </div>
         </div>
+
+        <div class="skill">
+            <div class="skill-header">
+                <span>Networking Basics</span>
+                <span>60%</span>
+            </div>
+            <div class="bar">
+                <div style="width: 60%"></div>
+            </div>
+        </div>
+
+
+        <div class="skill">
+            <div class="skill-header">
+                <span>SSH Remote Access</span>
+                <span>60%</span>
+            </div>
+            <div class="bar">
+                <div style="width: 60%"></div>
+            </div>
+        </div>
+
+
     </section>
 </template>
 
@@ -62,15 +106,26 @@ export default {
 
 .bar {
     width: 100%;
-    height: 12px;
-    background: #222;
+    height: 10px;
+    background: #1a1a1a;
     border-radius: 6px;
     margin-top: 8px;
+    overflow: hidden;
 }
 
 .bar div {
     height: 100%;
-    background: #00bcd4;
+    background: linear-gradient(90deg, #00bcd4, #00d4ee);
     border-radius: 6px;
+}
+
+.title span {
+    color: #00bcd4;
+}
+
+.skill-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
 }
 </style>
