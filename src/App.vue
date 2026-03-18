@@ -51,7 +51,9 @@ nav a.router-link-exact-active {
 
 .page {
   width: 100%;
-  overflow-x: hidden;
-  
+  max-width: none;
+  margin: 0;
+  padding: 0;
 }
+
 </style>
